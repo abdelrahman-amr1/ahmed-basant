@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    // Target Date: December 10, 2026 at 9:00 PM (21:00)
-    const weddingDate = new Date("December 10, 2026 21:00:00").getTime();
+    // Target Date: October 12, 2026 at 9:00 PM (21:00)
+    const weddingDate = new Date("October 12, 2026 21:00:00").getTime();
     
     // Core Elements
     const welcomeScreen = document.getElementById("welcome-screen");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Navigation / Copy Elements
     const copyLocationBtn = document.getElementById("copy-location-btn");
-    const mapsLink = "https://maps.app.goo.gl/RYXz7TqTzkAiLFDH8";
+    const mapsLink = "https://www.google.com/maps/place/%D9%82%D8%A7%D8%B9%D8%A9+%D9%87%D9%8A%D8%A7+%D9%84%D9%84%D8%A7%D9%81%D8%B1%D8%A7%D8%AD%E2%80%AD/@28.655305,30.8499718,17z/data=!3m1!4b1!4m6!3m5!1s0x145bad028ed4a17f:0x4ad24e0325774571!8m2!3d28.6553003!4d30.8473969";
 
     // Welcome Screen Transition & Music Trigger
     enterBtn.addEventListener("click", () => {
